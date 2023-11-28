@@ -368,7 +368,7 @@
   width: 50%;
   margin-right: 0px;
   transform: translateX(-100%);
-  transition: 0.5 all;
+  transition: 0.5s all;
 }
 .catalog-item__content_active {
   transform: translateX(0%);
@@ -380,13 +380,13 @@
   margin-left: 20px;
   transform: translateX(0%);
   padding-right: 20px;
-  transition: 0.5 all;
+  transition: 0.5s all;
   padding-left: 19px;
   margin-bottom: 0;
   list-style-type: none;
 }
 .catalog-item__list_active {
-  transform: translateX(100%);
+  transform: translateX(-100%);
   margin-left: 0px;
 }
 .catalog-item__list li {
