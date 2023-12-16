@@ -1,3 +1,14 @@
+@keyframes heartbeat {
+  from {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.3);
+  }
+  to {
+    transform: scale(1);
+  }
+}
 * {
   font-family: "Museo Sans Cyrl", sans-serif;
 }
@@ -133,6 +144,7 @@
 }
 
 .require {
+  background-color: #F6F6F6;
   padding: 73px 0 65px 0;
 }
 .require__wrapper {
@@ -169,6 +181,16 @@
   font-weight: 300;
   line-height: 18px;
   text-decoration-line: underline;
+}
+.require__icon_animated {
+  animation: heartbeat 1.5s ease infinite;
+  /* animation-name: heartbeat */
+  /* animation-duration: 1.5s */
+  /* animation-timing-function: ease */
+  /* animation-iteration-count: infinite */
+}
+.require__icon_animated:hover {
+  animation-play-state: paused;
 }
 
 .consultation {
