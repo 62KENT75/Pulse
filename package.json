@@ -2,8 +2,12 @@
   "dependencies": {
     "git": "^0.1.5",
     "gulp": "^4.0.2",
+    "gulp-imagemin": "^7.1.0",
     "gulp-sass": "^5.1.0",
     "node-sass": "^9.0.0",
     "sass": "^1.69.5"
+  },
+  "devDependencies": {
+    "gulp-htmlmin": "^5.0.1"
   }
 }
